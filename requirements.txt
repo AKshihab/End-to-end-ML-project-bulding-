@@ -9,6 +9,8 @@ imblearn
 xgboost
 catboost
 pymongo
+dnspython
+certifi
 from_root
 evidently==0.2.8
 dill
