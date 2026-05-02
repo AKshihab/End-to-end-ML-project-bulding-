@@ -4,6 +4,6 @@ import sys
 
 try:
     a=1/0
+    print(a)
 except Exception as e:
-    logging.error("this is error message")
     raise UsvisaException(e,sys)
