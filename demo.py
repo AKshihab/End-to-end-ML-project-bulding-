@@ -3,7 +3,7 @@ from us_visa.exception import UsvisaException
 import sys
 
 try:
-    a=1/0
-    print(a)
+    logging.info("Demo ran successfully")
+    print("Demo ran successfully")
 except Exception as e:
     raise UsvisaException(e,sys)
